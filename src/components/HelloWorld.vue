@@ -48,6 +48,8 @@ onMounted(() => {
   const textures = []
   const textureFiles = ['bus.jpg', 'bbq.jpg', 'ambulance.jpg',
     'apartment.jpg', 'last.jpg', 'lock.jpg', 'paper.jpg', 'phone.jpg', 'room.jpg', 'buns.jpg']
+
+
   for (const textureFile of textureFiles) {
     const texture = textureLoader.load(textureFile)
     texture.flipY = false
